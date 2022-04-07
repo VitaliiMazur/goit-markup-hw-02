@@ -31,8 +31,8 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.link:hover,
-.link:focus {
+.a-link:hover,
+.a-link:focus {
   color: #2196f3;
 }
 .email {
