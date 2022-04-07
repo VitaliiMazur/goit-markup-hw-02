@@ -1,11 +1,18 @@
 :root {
-    --primary-text-color:#757575; /*загальний текст*/
-    --title-text-color:#212121; /*заголовки*/
-
+  --primary-text-color: #757575; /*загальний текст*/
+  --title-text-color: #212121; /*заголовки*/
+  --acent-color: #2196f3; /*колір наведення*/
+  --black-color: #000000; /*чорний*/
+  --primary-bg-color: #ffffff;
 }
 body {
+    background-color: var(--primary-bg-color)
+    var(--primary-text-color)
   font-family: "Roboto", Tahoma, sans-serif;
-  color: #212121;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  
 }
 
 .link {
@@ -16,17 +23,19 @@ body {
 }
 /* --------------------------------------------HEADER */
 
-
 .header-logo {
+  color: var(--acent-color);
   font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  
 }
 .studio {
-  color: #000000;
+    color: var(--title-text-color);
+    
+  
 }
 
 .header-nav {
@@ -38,7 +47,7 @@ body {
 }
 .a-link:hover,
 .a-link:focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 .email {
   font-weight: 500;
@@ -50,7 +59,7 @@ body {
 }
 .email:hover,
 .email:focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 .tel {
   font-weight: 500;
@@ -61,7 +70,7 @@ body {
 }
 .tel:hover,
 .tel:focus {
-  color: #2196f3;
+  color: var(--acent-color);
 }
 .button {
   background-color: #ffffff;
@@ -70,7 +79,7 @@ body {
 /* --------------------------------------------------BUTTON */
 
 .btn-filter {
-    font-family: "Roboto";
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -90,22 +99,20 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  var:var(--title-text-color)
+  color: var(--title-text-color);
 }
 .p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  var:var(--primary-text-color)
+  color: var(--primary-text-color);
 }
 .address {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 .footer {
-    background-color: #2F303A;
+  background-color: #2f303a;
 }
