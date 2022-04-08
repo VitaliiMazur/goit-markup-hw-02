@@ -3,16 +3,16 @@
   --title-text-color: #212121; /*заголовки*/
   --acent-color: #2196f3; /*колір наведення*/
   --black-color: #000000; /*чорний*/
-  --primary-bg-color: #ffffff;
+  --primary-bg-color: #ffffff; /*білий*/
+  --footer-bgc-color: #2f303a; /*фон футера*/
 }
 body {
-    background-color: var(--primary-bg-color)
-    var(--primary-text-color)
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
   font-family: "Roboto", Tahoma, sans-serif;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  
 }
 
 .link {
@@ -30,12 +30,9 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  
 }
 .studio {
-    color: var(--title-text-color);
-    
-  
+  color: var(--title-text-color);
 }
 
 .header-nav {
@@ -43,7 +40,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-text-color);
 }
 .a-link:hover,
 .a-link:focus {
@@ -54,8 +51,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .email:hover,
 .email:focus {
@@ -66,14 +62,14 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--primary-text-color);
 }
 .tel:hover,
 .tel:focus {
   color: var(--acent-color);
 }
 .button {
-  background-color: #ffffff;
+  background-color: var(--primary-bg-color);
 }
 
 /* --------------------------------------------------BUTTON */
@@ -84,13 +80,13 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-text-color);
   cursor: pointer;
 }
 .btn-filter:hover,
 .btn-filter:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--acent-color);
+  color: var(--title-text-color);
 }
 
 /* -------------------------------------------------------------ПОРТФОЛИО */
@@ -111,8 +107,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 .footer {
-  background-color: #2f303a;
+  background-color: var(--footer-bgc-color);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
