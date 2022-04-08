@@ -1,0 +1,67 @@
+:root {
+  --primary-text-color: #757575; /*загальний текст*/
+  --title-text-color: #212121; /*заголовки*/
+  --acent-color: #2196f3; /*колір наведення та кнопки*/
+  --black-color: #000000; /*чорний*/
+  --primary-bg-color: #ffffff; /*білий*/
+  --footer-bgc-color: #2f303a; /*фон футера і секції*/
+}
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: "Roboto", Tahoma, sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.header-logo {
+  color: var(--acent-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.studio {
+  color: var(--title-text-color);
+}
+
+.header-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.a-link:hover,
+.a-link:focus {
+  color: var(--acent-color);
+}
+.email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.email:hover,
+.email:focus {
+  color: var(--acent-color);
+}
+.tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.tel:hover,
+.tel:focus {
+  color: var(--acent-color);
+}
