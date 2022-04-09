@@ -43,13 +43,22 @@ body {
   color: var(--title-text-color);
 }
 
-.a-link:hover,
-.a-link:focus {
+.st-link:hover,
+.st-link:focus {
+  color: var(--acent-color);
+}
+.pf-link:hover,
+.pf-link:focus {
+  color: var(--acent-color);
+}
+.kon-link:hover,
+.kon-link:focus {
   color: var(--acent-color);
 }
 .header-nav .link.current {
   color: var(--acent-color);
 }
+
 .email {
   font-weight: 500;
   font-size: 14px;
