@@ -5,6 +5,8 @@
   --black-color: #000000; /*чорний*/
   --primary-bg-color: #ffffff; /*білий*/
   --footer-bgc-color: #2f303a; /*фон футера*/
+  --btn-service-color: rgba(0, 0, 0, 0.25); /*кнопка заказать услугу*/
+  --our-team-bgc-color: #f5f4fa; /*колір фону нашої команди*/
 }
 body {
   background-color: var(--primary-bg-color);
@@ -96,8 +98,10 @@ body {
   line-height: 1.62;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
+  background-color: var(--our-team-bgc-color);
   cursor: pointer;
 }
+
 .btn-filter:hover,
 .btn-filter:focus {
   background-color: var(--acent-color);
@@ -105,6 +109,9 @@ body {
 }
 
 /* -------------------------------------------------------------ПОРТФОЛИО */
+.bcg-our-team {
+  background-color: var(--our-team-bgc-color);
+}
 .name {
   font-weight: 700;
   font-size: 18px;
@@ -118,28 +125,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
-.studio-footer {
-  color: var(--primary-bg-color);
-}
-.address {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--primary-bg-color);
-}
-.footer {
-  background-color: var(--footer-bgc-color);
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.email-footer,
-.tel-footer {
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
+
 /* --------------СТУДИЯ-------------------------------------------------------------------------------------------------СТУДИЯ---------------------------------------- */
 .business {
   background-color: var(--footer-bgc-color);
@@ -164,6 +150,10 @@ body {
   background-color: var(--acent-color);
   color: var(--primary-bg-color);
   cursor: pointer;
+}
+.btn-service:hover,
+.btn-service:focus {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .list-text {
@@ -209,6 +199,16 @@ body {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
+/* --------------------------------footer------------------- */
+.studio-footer {
+  color: var(--primary-bg-color);
+}
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-bg-color);
+}
 .studio-footer {
   color: var(--primary-bg-color);
 }
@@ -223,4 +223,11 @@ body {
   border: 1px solid #000000;
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.email-footer,
+.tel-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
