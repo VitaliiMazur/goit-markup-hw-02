@@ -7,6 +7,7 @@
   --footer-bgc-color: #2f303a; /*фон футера*/
   --btn-service-color: rgba(0, 0, 0, 0.25); /*кнопка заказать услугу*/
   --our-team-bgc-color: #f5f4fa; /*колір фону нашої команди*/
+  --bgc--hoverfocus-btnservice-color: #188ce8; /*ховер,фокус кнопки заказать услугу*/
 }
 body {
   background-color: var(--primary-bg-color);
@@ -42,6 +43,11 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+.st-link,
+.pf-link,
+.kon-link {
   color: var(--title-text-color);
 }
 
@@ -105,7 +111,7 @@ body {
 .btn-filter:hover,
 .btn-filter:focus {
   background-color: var(--acent-color);
-  color: var(--title-text-color);
+  color: var(--primary-bg-color);
 }
 
 /* -------------------------------------------------------------ПОРТФОЛИО */
@@ -153,7 +159,7 @@ body {
 }
 .btn-service:hover,
 .btn-service:focus {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background-color: var(--bgc--hoverfocus-btnservice-color);
 }
 
 .list-text {
@@ -204,6 +210,9 @@ body {
   color: var(--primary-bg-color);
 }
 .address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -226,6 +235,7 @@ body {
 }
 .email-footer,
 .tel-footer {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
